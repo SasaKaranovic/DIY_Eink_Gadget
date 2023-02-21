@@ -1,0 +1,92 @@
+/*
+ * Copyright (c) 2020 Intel Corporation
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/ {
+    leds {
+        compatible = "gpio-leds";
+        led0: led_0 {
+            gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
+            label = "Green LED 0";
+        };
+        led1: led_1 {
+            gpios = <&gpio0 14 GPIO_ACTIVE_LOW>;
+            label = "Green LED 1";
+        };
+        led2: led_2 {
+            gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
+            label = "Green LED 2";
+        };
+        led3: led_3 {
+            gpios = <&gpio0 16 GPIO_ACTIVE_LOW>;
+            label = "Green LED 3";
+        };
+    };
+
+    buttons {
+        compatible = "gpio-keys";
+        button0: button_0 {
+            label = "Push button switch 0";
+            gpios = <&gpio0 13 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+        };
+        button1: button_1 {
+            label = "Push button switch 1";
+            gpios = <&gpio0 14 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+        };
+        button2: button_2 {
+            label = "Push button switch 2";
+            gpios = <&gpio0 15 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+        };
+    };
+
+    aliases {
+        led0 = &led0;
+        led1 = &led1;
+        led2 = &led2;
+        led3 = &led3;
+        sw0 = &button0;
+        sw1 = &button1;
+        sw2 = &button2;
+    };
+
+};
+
+/ {
+    eink {
+        compatible = "gpio-leds";
+        einkreset: eink_reset {
+            gpios = <&gpio0 31 GPIO_ACTIVE_LOW>;
+            label = "Display reset pin";
+        };
+        einkbusy: eink_busy {
+            gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>;
+            label = "Display busy pin";
+        };
+        einkdc: eink_dc {
+            gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
+            label = "Data command pin";
+        };
+    };
+
+    aliases {
+        einkreset = &einkreset;
+        einkbusy = &einkbusy;
+        einkdc = &einkdc;
+    };
+
+};
+
+/ {
+    spibb0: spibb0 {
+        compatible = "zephyr,spi-bitbang";
+        status="okay";
+        #address-cells = <1>;
+        #size-cells = <0>;
+        clk-gpios = <&gpio0 28 GPIO_ACTIVE_HIGH>;
+        mosi-gpios = <&gpio0 29 GPIO_ACTIVE_HIGH>;
+        miso-gpios = <&gpio0 19 0>;
+        cs-gpios = <&gpio0 4 GPIO_ACTIVE_LOW>;
+    };
+};

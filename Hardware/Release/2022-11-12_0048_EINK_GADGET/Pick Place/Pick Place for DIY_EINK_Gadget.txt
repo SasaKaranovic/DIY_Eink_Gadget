@@ -1,0 +1,78 @@
+Altium Designer Pick and Place Locations
+C:\Users\Sasa\Desktop\git\DIY_EINK_Gadget\Hardware\nrf52810_discrete\Project Outputs for DIY_EINK_Gadget\Pick Place\Pick Place for DIY_EINK_Gadget.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       20-02-23
+Time:       22:07
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                            Layer       Footprint                  Center-X(mil) Center-Y(mil) Rotation Description                                                             
+R11        Res                                TopLayer    0603                       -50.000mil    -550.000mil   90       Resistor                                                                
+R10        Res                                TopLayer    0603                       -50.000mil    -440.000mil   90       Resistor                                                                
+L5         Inductor                           TopLayer    0603_IND                   563.799mil    745.000mil    0        Inductor                                                                
+C30        Cap                                TopLayer    0603_-_CAP                 470.000mil    715.000mil    90       Capacitor                                                               
+A1         2450AT18B100E                      TopLayer    2450AT18B100               740.000mil    745.000mil    0        "2.4GHz - Chip RF Antenna 2.4GHz ~ 2.5GHz 0.5dBi Solder Surface Mount"  
+P3         "USB-C Recepticle"                 TopLayer    GCT_USB4105-GF-A           -731.398mil   -400.000mil   270      "CONN RCPT USB2.0 TYPEC 5A"                                             
+P4         "Battery Connector"                TopLayer    Header_2x1_SMD             -245.000mil   -770.000mil   270      "Header, 2-Pin"                                                         
+P1         ICSP                               TopLayer    Header_6x1_M_-_90Deg_-_SMT 345.000mil    435.000mil    0        "Header, 6-Pin"                                                         
+R9         Res                                TopLayer    0603                       -768.307mil   275.000mil    0        Resistor                                                                
+R8         Res                                TopLayer    0603                       -768.307mil   336.693mil    0        Resistor                                                                
+Q2         DMN62D0U-13                        TopLayer    SOT90P240X100-3N           -595.000mil   295.000mil    270      "MOSFET N-CH 60V 0.38A"                                                 
+U1         NRF52810-QCAA-R                    TopLayer    QFN50P500X500X100_HS-33N   -70.000mil    160.000mil    90       "IC RF TxRx + MCU Bluetooth Bluetooth v5.0 2.4GHz 32-VFQFN Exposed Pad" 
+X2         32.00MHz                           TopLayer    XTAL-4LEAD-2016            -251.575mil   419.331mil    0        "32 MHz ±10ppm Crystal 8pF 50 Ohms 4-SMD, No Lead"                      
+X1         32.768KHz                          TopLayer    XTAL-2LEAD-3215            -135.000mil   -65.000mil    0        "32.768 kHz ±20ppm Crystal 7pF 70 kOhms 2-SMD, No Lead"                 
+U3         MCP73832T                          TopLayer    SOT-23-5                   -345.000mil   -479.599mil   180      "1xLi-Ion char, 0.5A, 4.2V reg, 3.75-6V"                                
+U2         TPS7A0333DBVR                      TopLayer    SOT-23-5                   -290.000mil   -305.402mil   0        "Linear Voltage Regulator IC  1 Output  450mA SOT-23-5"                 
+SW3        "SWITCH TACTILE SPST-NO 0.05A 12V" BottomLayer PTS645                     -748.032mil   0.000mil      90       "SWITCH TACTILE SPST-NO 0.05A 12V"                                      
+SW2        "SWITCH TACTILE SPST-NO 0.05A 12V" BottomLayer PTS645                     748.032mil    0.000mil      270      "SWITCH TACTILE SPST-NO 0.05A 12V"                                      
+SW1        "SWITCH TACTILE SPST-NO 0.05A 12V" BottomLayer PTS645                     0.000mil      0.000mil      90       "SWITCH TACTILE SPST-NO 0.05A 12V"                                      
+R7         Res                                TopLayer    0603                       -470.000mil   -125.000mil   270      Resistor                                                                
+R6         Res                                TopLayer    0603                       -410.000mil   -125.000mil   270      Resistor                                                                
+R5         Res                                TopLayer    0603                       -480.000mil   -760.000mil   0        Resistor                                                                
+R4         Res                                TopLayer    0603                       -345.000mil   -580.000mil   180      Resistor                                                                
+R2         Res                                TopLayer    0603                       -768.307mil   136.693mil    0        Resistor                                                                
+R1         Res                                TopLayer    0603                       -644.154mil   136.693mil    0        Resistor                                                                
+L3         Inductor                           TopLayer    0603_IND                   -305.000mil   70.000mil     0        Inductor                                                                
+L2         Inductor                           TopLayer    0603_IND                   -305.000mil   130.000mil    180      Inductor                                                                
+L1         Inductor                           TopLayer    0603_IND                   375.000mil    745.000mil    0        Inductor                                                                
+D4         LED                                TopLayer    0603_Diode                 -480.000mil   -830.000mil   0        "Typical RED GaAs LED"                                                  
+C29        Cap                                TopLayer    0603_-_CAP_HS              -205.000mil   -475.000mil   270      Capacitor                                                               
+C28        Cap                                TopLayer    0603_-_CAP_HS              -470.000mil   -480.000mil   270      Capacitor                                                               
+C27        Cap                                TopLayer    0603_-_CAP_HS              -85.000mil    -305.000mil   270      Capacitor                                                               
+C26        Cap                                TopLayer    0603_-_CAP_HS              -150.000mil   -305.000mil   270      Capacitor                                                               
+C25        Cap                                TopLayer    0603_-_CAP_HS              -425.000mil   -305.000mil   270      Capacitor                                                               
+C24        Cap                                TopLayer    0603_-_CAP_HS              -490.000mil   -305.000mil   270      Capacitor                                                               
+C14        Cap                                TopLayer    0603_-_CAP                 -140.000mil   380.000mil    270      Capacitor                                                               
+C13        Cap                                TopLayer    0603_-_CAP                 -80.000mil    380.000mil    270      Capacitor                                                               
+C12        Cap                                TopLayer    0603_-_CAP                 -290.000mil   -125.000mil   90       Capacitor                                                               
+C11        Cap                                TopLayer    0603_-_CAP                 -305.000mil   190.000mil    0        Capacitor                                                               
+C10        Cap                                TopLayer    0603_-_CAP                 -305.000mil   250.000mil    0        Capacitor                                                               
+C9         Cap                                TopLayer    0603_-_CAP                 -520.000mil   136.693mil    0        Capacitor                                                               
+C8         Cap                                TopLayer    0603_-_CAP                 -305.000mil   -5.000mil     0        Capacitor                                                               
+C7         Cap                                TopLayer    0603_-_CAP                 -305.000mil   330.000mil    0        Capacitor                                                               
+C6         Cap                                TopLayer    0603_-_CAP                 115.000mil    28.898mil     90       Capacitor                                                               
+C5         Cap                                TopLayer    0603_-_CAP                 -255.000mil   520.000mil    0        Capacitor                                                               
+C4         Cap                                TopLayer    0603_-_CAP                 -355.000mil   425.000mil    270      Capacitor                                                               
+C3         Cap                                TopLayer    0603_-_CAP                 -75.000mil    -160.000mil   0        Capacitor                                                               
+C2         Cap                                TopLayer    0603_-_CAP                 -195.000mil   -160.000mil   180      Capacitor                                                               
+C1         Cap                                TopLayer    0603_-_CAP                 -770.000mil   75.000mil     0        Capacitor                                                               
+R3         Res                                TopLayer    0603_-_HS                  590.000mil    -460.000mil   270      Resistor                                                                
+Q1         DMN62D0U-13                        TopLayer    SOT90P240X100-3N           710.000mil    -540.000mil   270      "MOSFET N-CH 60V 0.38A"                                                 
+P2         HINK-E013A02                       TopLayer    SFV24R-1STE1HLF            559.606mil    0.000mil      270      ""                                                                      
+L4         Inductor                           TopLayer    IND_5050                   100.000mil    -648.032mil   270      Inductor                                                                
+D2         "Diode Schotky"                    TopLayer    SOD123F                    400.000mil    -645.000mil   270      ""                                                                      
+D1         "Diode Schotky"                    TopLayer    SOD123F                    495.000mil    -645.000mil   90       ""                                                                      
+D3         "Diode Schotky"                    TopLayer    SOD123F                    305.000mil    -645.000mil   90       ""                                                                      
+C23        Cap                                TopLayer    0603_-_CAP_HS              475.000mil    -408.504mil   90       Capacitor                                                               
+C22        Cap                                TopLayer    0603_-_CAP_HS              307.500mil    -408.504mil   90       Capacitor                                                               
+C21        Cap                                TopLayer    0603_-_CAP_HS              140.000mil    -408.504mil   90       Capacitor                                                               
+C20        Cap                                TopLayer    0603_-_CAP_HS              305.000mil    -110.000mil   0        Capacitor                                                               
+C19        Cap                                TopLayer    0603_-_CAP_HS              155.000mil    -110.000mil   180      Capacitor                                                               
+C18        Cap                                TopLayer    0603_-_CAP_HS              305.000mil    150.000mil    0        Capacitor                                                               
+C15        Cap                                TopLayer    0603_-_CAP_HS              391.250mil    -408.504mil   270      Capacitor                                                               
+C16        Cap                                TopLayer    0603_-_CAP_HS              345.000mil    -805.000mil   0        Capacitor                                                               
+C17        Cap                                TopLayer    0603_-_CAP_HS              223.750mil    -408.504mil   270      Capacitor                                                               
