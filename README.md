@@ -1,9 +1,10 @@
 
+
 # DIY EINK GADGET
 
 
 ## What is this project about?
-[![DIY EINK Gadget](http://img.youtube.com/vi/-t66ZylGClk/0.jpg)](https://youtu.be/-t66ZylGClk "DIY EINK Gadget")
+
 
 Above video shows the finished E-INK gadget, how it works, how you can build one and motivation behind some of the design decisions.
 
@@ -15,7 +16,6 @@ Hardware and firmware build instructions and source files are available in their
 
 Blog page: https://sasakaranovic.com/projects/diy-eink-gadget/
 
-YouTube video: http://www.youtube.com/watch?v=-t66ZylGClk
 
 
 ---
