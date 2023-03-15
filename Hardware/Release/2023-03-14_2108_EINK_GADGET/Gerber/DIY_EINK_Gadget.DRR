@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DIY_EINK_Gadget.PcbDoc   2023-03-14  21:08:14
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : DIY_EINK_Gadget-RoundHoles.TXT
+ASCII SlotHoles File : DIY_EINK_Gadget-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      16mil (0.4mm)                                             Round             91        PTH        13.55inch (344.13mm)
+T2      24mil (0.6mm)                                             Slot              4         PTH        1.50inch (38.17mm)
+T3      118mil (3mm)                                              Round             4         PTH        4.55inch (115.50mm)
+T4      26mil (0.65mm)                                            Round             2         NPTH       0.23inch (5.78mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              101
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Sasa\Desktop\git\DIY_EINK_Gadget\Hardware\nrf52810_discrete\DIY_EINK_Gadget.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=diy_eink_gadget-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=diy_eink_gadget-slotholes.txt|DrillLayers=gtl,gbl
