@@ -90,6 +90,9 @@ void screen_dice_simple(uint8_t max)
     gfx_clear_buffer();
 
     const int16_t middle = (EPD_WIDTH-1)/2;
+
+    // TODO/FIXME: Using mod (%) will result in non-equal probability for certain numbers.
+    // ie. if number is 0-9 but we do a mod 6, numbers 0, 1, 2 will have higher probability due to 7, 8, 9
     uint32_t random_value = sys_rand32_get();
     random_value = random_value % max;
 
@@ -227,7 +230,7 @@ void screen_subscribe(void)
     // Play button - border
     gfx_draw_fill_round_rect(20, (EPD_HEIGHT/2)-20, 40, 40, 8, EPD_RED);
 
-    // Play button - rectangle
+    // Play button - triangle
     gfx_draw_fill_triangle(30, (EPD_HEIGHT/2)-10, 30, (EPD_HEIGHT/2)+10, 50, (EPD_HEIGHT/2), EPD_RED_INVERSE);
     gfx_draw_fill_triangle(30, (EPD_HEIGHT/2)-10, 30, (EPD_HEIGHT/2)+10, 50, (EPD_HEIGHT/2), EPD_WHITE);
 
