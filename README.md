@@ -14,6 +14,7 @@ Hardware and firmware build instructions and source files are available in their
 ---
 
 Blog page: https://sasakaranovic.com/projects/diy-eink-gadget/
+
 YouTube video: https://youtu.be/i01PoMj23bA
 
 
